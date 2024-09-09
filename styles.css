@@ -1,0 +1,15 @@
+
+  .custom-list {
+    list-style: none; /* Removes the default bullets */
+    padding-left: 0;
+  }
+
+  .custom-list li {
+    position: relative;
+    padding-left: 2rem; /* Adds space for the icon */
+    background-image: url('assets/icons/checklist.svg'); /* Replace with the path to your custom icon */
+    background-repeat: no-repeat;
+    background-position: 0 0.2rem; /* Adjusts the icon position */
+    background-size: 1rem 1rem; /* Adjust the size of the icon */
+    margin-bottom: 0.5rem; /* Adds spacing between list items */
+  }
