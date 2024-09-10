@@ -32,3 +32,12 @@
     .testimonial p {
       font-style: italic;
     }
+
+    ul {
+      list-style-type: none; /* Hides the list icon (bullet points) */
+      padding: 0; /* Removes the default left padding */
+    }
+
+    li {
+      margin: 10px 0; /* Adds spacing between the items */
+    }
