@@ -13,3 +13,9 @@
     background-size: 1rem 1rem; /* Adjust the size of the icon */
     margin-bottom: 0.5rem; /* Adds spacing between list items */
   }
+
+  
+    .container-left {
+      margin-right: auto; /* Make right side fluid */
+      max-width: 50%; /* Adjust the percentage to control the container width */
+    }
