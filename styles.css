@@ -19,3 +19,16 @@
       margin-right: auto; /* Make right side fluid */
       max-width: 50%; /* Adjust the percentage to control the container width */
     }
+    .testimonial {
+      text-align: center;
+      padding: 30px;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+    .testimonial h5 {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .testimonial p {
+      font-style: italic;
+    }
