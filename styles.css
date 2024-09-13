@@ -45,3 +45,12 @@
     .brand-p-color{
       background-color: #091B6F;;
     }
+
+    .carousel-control-prev-icon {
+      background-image: url(assets/icons/Left-button.png);
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(assets/icons/Right-button.png);
+
+}
