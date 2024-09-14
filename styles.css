@@ -78,3 +78,8 @@
   --bs-btn-disabled-bg: #5CB85F;
   --bs-btn-disabled-border-color: #5CB85F;
 }
+
+.nav-link {
+ 
+  color: #000;
+}
