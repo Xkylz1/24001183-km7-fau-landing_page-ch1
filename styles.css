@@ -83,3 +83,7 @@
  
   color: #000;
 }
+
+.row{
+  --bs-gutter-x: 0;
+}
