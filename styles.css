@@ -31,12 +31,12 @@
 }
 
 ul {
-  list-style-type: none; /* Hides the list icon (bullet points) */
-  padding: 0; /* Removes the default left padding */
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-  margin: 10px 0; /* Adds spacing between the items */
+  margin: 10px 0;
 }
 
 .brand-p-color {
@@ -72,6 +72,7 @@ li {
   --bs-btn-disabled-bg: #5cb85f;
   --bs-btn-disabled-border-color: #5cb85f;
   border-radius: 2px;
+
   /* button font */
   font-size: 14px;
   font-weight: 700;
@@ -105,4 +106,13 @@ h1 {
 h2 {
   font-size: 24px;
   font-weight: 700;
+}
+
+h5{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-body > * {
+  margin: 16px 0;
 }
