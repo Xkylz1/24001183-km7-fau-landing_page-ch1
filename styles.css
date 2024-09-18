@@ -72,7 +72,7 @@ li {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #5cb85f;
   --bs-btn-disabled-border-color: #5cb85f;
-  
+  border-radius: 2px;
   /* button font */
   font-size: 14px;
   font-weight: 700;
