@@ -9,8 +9,12 @@
   background-image: url("assets/icons/checklist.svg");
   background-repeat: no-repeat;
   background-size: 24px 24px;
+  background-position: 0 center; 
+  line-height: 1.8; 
   margin-bottom: 16px;
+  font-size: 14px; 
 }
+
 
 .container-left {
   margin-right: auto;
@@ -113,11 +117,20 @@ h5{
   font-weight: 700;
 }
 
+h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .card-body > * {
   margin: 16px 0;
 }
 
-fw-link{
+.fw-link{
   font-size: 14px;
   font-weight: 400;
+}
+
+.max-image{
+  max-height: 80px;
 }
