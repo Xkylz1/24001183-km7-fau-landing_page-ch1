@@ -116,3 +116,8 @@ h5{
 .card-body > * {
   margin: 16px 0;
 }
+
+fw-link{
+  font-size: 14px;
+  font-weight: 400;
+}
