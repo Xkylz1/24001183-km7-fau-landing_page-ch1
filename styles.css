@@ -1,89 +1,104 @@
+.custom-list {
+  list-style: none; /* Removes the default bullets */
+  padding-left: 0;
+}
 
-  .custom-list {
-    list-style: none; /* Removes the default bullets */
-    padding-left: 0;
-  }
+.custom-list li {
+  position: relative;
+  padding-left: 2rem; /* Adds space for the icon */
+  background-image: url("assets/icons/checklist.svg"); /* Replace with the path to your custom icon */
+  background-repeat: no-repeat;
+  background-position: 0 0.2rem; /* Adjusts the icon position */
+  background-size: 1rem 1rem; /* Adjust the size of the icon */
+  margin-bottom: 0.5rem; /* Adds spacing between list items */
+}
 
-  .custom-list li {
-    position: relative;
-    padding-left: 2rem; /* Adds space for the icon */
-    background-image: url('assets/icons/checklist.svg'); /* Replace with the path to your custom icon */
-    background-repeat: no-repeat;
-    background-position: 0 0.2rem; /* Adjusts the icon position */
-    background-size: 1rem 1rem; /* Adjust the size of the icon */
-    margin-bottom: 0.5rem; /* Adds spacing between list items */
-  }
+.container-left {
+  margin-right: auto; /* Make right side fluid */
+  max-width: 50%; /* Adjust the percentage to control the container width */
+}
+.testimonial {
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+.testimonial h5 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.testimonial p {
+  font-style: italic;
+}
 
-  
-    .container-left {
-      margin-right: auto; /* Make right side fluid */
-      max-width: 50%; /* Adjust the percentage to control the container width */
-    }
-    .testimonial {
-      text-align: center;
-      padding: 30px;
-      background-color: #f8f9fa;
-      border-radius: 5px;
-    }
-    .testimonial h5 {
-      margin-top: 20px;
-      font-weight: bold;
-    }
-    .testimonial p {
-      font-style: italic;
-    }
+ul {
+  list-style-type: none; /* Hides the list icon (bullet points) */
+  padding: 0; /* Removes the default left padding */
+}
 
-    ul {
-      list-style-type: none; /* Hides the list icon (bullet points) */
-      padding: 0; /* Removes the default left padding */
-    }
+li {
+  margin: 10px 0; /* Adds spacing between the items */
+}
 
-    li {
-      margin: 10px 0; /* Adds spacing between the items */
-    }
+.brand-p-color {
+  background-color: #091b6f;
+}
 
-    .brand-p-color{
-      background-color: #091B6F;;
-    }
+.carousel-control-prev-icon {
+  background-image: url(assets/icons/Left-button.png);
+}
 
-    .carousel-control-prev-icon {
-      background-image: url(assets/icons/Left-button.png);
-  }
-
-  .carousel-control-next-icon {
-    background-image: url(assets/icons/Right-button.png);
-
+.carousel-control-next-icon {
+  background-image: url(assets/icons/Right-button.png);
 }
 
 .navbar-brand {
-  
-  color: #0D28A6;
-  background-color: #0D28A6;
-
+  color: #0d28a6;
+  background-color: #0d28a6;
 }
 
 .btn-success {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #5CB85F;
-  --bs-btn-border-color: #5CB85F;
+  --bs-btn-bg: #5cb85f;
+  --bs-btn-border-color: #5cb85f;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #5CB85F;
-  --bs-btn-hover-border-color: #5CB85F;
+  --bs-btn-hover-bg: #5cb85f;
+  --bs-btn-hover-border-color: #5cb85f;
   --bs-btn-focus-shadow-rgb: 60, 153, 110;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #5CB85F;
-  --bs-btn-active-border-color: ##5CB85F;
+  --bs-btn-active-bg: #5cb85f;
+  --bs-btn-active-border-color: ##5cb85f;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #5CB85F;
-  --bs-btn-disabled-border-color: #5CB85F;
+  --bs-btn-disabled-bg: #5cb85f;
+  --bs-btn-disabled-border-color: #5cb85f;
+  
+  /* button font */
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .nav-link {
- 
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.row.fix-row {
+  --bs-gutter-x: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
   color: #000;
 }
 
-.row.fix-row{
-  --bs-gutter-x: 0;
+p{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
 }
