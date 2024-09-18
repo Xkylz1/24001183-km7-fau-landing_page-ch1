@@ -93,12 +93,17 @@ body {
   color: #000;
 }
 
-p{
+p {
   font-size: 14px;
   font-weight: 300;
 }
 
-h1{
+h1 {
   font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
   font-weight: 700;
 }
